@@ -1,5 +1,7 @@
 <?php
 
+// @JK_tools_bot
+
 $token = '6393368167:AAF5e6UyKH1G-OFjDiDK84LlFcYWujd4tbw';
 $server = "https://api.telegram.org/bot$token";
 
@@ -16,7 +18,7 @@ if(strpos($message, '/start') === 0){
     file_get_contents($path);
 }
 
-// IMAGE
+// IMAGE command
 if(strpos($message, '/image') === 0){
     // $photoStr = "https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png";
     // curl($server."/sendPhoto",['chat_id'=>$chatId,'photo'=>$photoStr]);
